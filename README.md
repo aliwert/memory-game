@@ -3,7 +3,7 @@
 
 ## <img src="image-1.png" alt="Getting Started" height="100"/>
 - Firstly, make sure you have Node.js and npm installed on your machine.
-1. To get a local copy up and running follow these simple steps.
+1. To get a local copy up and running follow these steps.
 2. Clone the repo `https://github.com/aliwert/momery-game.git`.
 3. Install NPM packages `npm install`.
 4. Start the development server `npm run dev`.
