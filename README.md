@@ -9,7 +9,7 @@
 4. Start the development server `npm run dev`.
 5. Open your browser and go to `http://localhost:5173/` to view the game.
 
-## How to Play
+## 👻How to Play
 1. Click on a card to reveal its image.
 2. Click on another card to find its matching pair.
 3. If the images match, the cards will stay open. Otherwise, they will flip back.
