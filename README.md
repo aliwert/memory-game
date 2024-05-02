@@ -21,3 +21,5 @@
 - Displays the elapsed time.
 - Reset button to start a new game.
 - Animated card flips and match celebrations.
+## 👽Contributions
+- Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
