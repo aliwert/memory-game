@@ -6,4 +6,4 @@
 1. To get a local copy up and running follow these simple steps.
 2. Clone the repo `https://github.com/aliwert/momery-game.git`
 3. Install NPM packages `npm install`
-4. 
+4. Start the development server `npm run dev`
