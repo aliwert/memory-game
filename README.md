@@ -15,7 +15,7 @@
 3. If the images match, the cards will stay open. Otherwise, they will flip back.
 4. Keep matching pairs until all cards are revealed.
 
-## Features
+## 🤖Features
 - Randomized card positions for a new game experience each time.
 - Tracks the number of attempts made.
 - Displays the elapsed time.
