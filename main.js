@@ -94,10 +94,17 @@ let timeStarted = false;
 // RESET ALL
 let reset = document.querySelector(".reset");
 reset.addEventListener("click", () => {
-  let confirmReset = confirm("Whole game will start again. continue to reset?");
-  if (confirmReset === true) {
-    window.location.reload();
-  }
+  Swal.fire({
+    title: "Whole game will start again. Continue to reset?",
+    icon: "question",
+    showCancelButton: true,
+    confirmButtonText: "Yes",
+    cancelButtonText: "No",
+  }).then((result) => {
+    if (result.isConfirmed) {
+      window.location.reload();
+    }
+  });
 });
 // VARIABLES FOR THE GAME
 let firstGuess = "";
@@ -169,3 +176,19 @@ grid.addEventListener("click", function (event) {
   // Set previous target to clicked
   previousTarget = clicked;
 });
+const checkWin = () => {
+  let matchedCards = document.querySelectorAll(".match");
+  if (matchedCards.length === gameGrid.length) {
+    // Tüm kartlar eşleştirildiğinde yapılacak işlemler
+    Swal.fire({
+      title: "Congratulations! You won!",
+      icon: "success",
+      confirmButtonText: "Play Again",
+    }).then((result) => {
+      if (result.isConfirmed) {
+        window.location.reload();
+      }
+    });
+  }
+};
+checkWin()

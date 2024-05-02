@@ -75,13 +75,11 @@ body {
   background-position: center center;
 }
 .selected {
-  border: 4px solid blue;
   transform: rotateY(180deg);
 }
 .match .front {
   border: 0px;
-  background: rgb(4, 44, 2) url("../media/celebrate.gif") no-repeat center
-    center / contain !important;
+  background: url("./media/celebrate.gif") no-repeat center center / contain !important;
   cursor: not-allowed;
   transform: none !important;
 }
